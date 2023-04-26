@@ -7,12 +7,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    box-sizing: border-box;
     background-color: #000;
     color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -23,6 +24,30 @@ body {
 
 .logo {
     max-width: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .cabecalho {
+        padding: 20px 10px;
+        transition: 1s;
+    }
+
+    .card {
+        width: calc(50% - 20px);
+        transition: 1s;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .cabecalho a {
+        font-size: 20px;
+        transition: 1s;
+    }
+
+    .card {
+        width: 100%;
+        transition: 1s;
+    }
 }
 
 

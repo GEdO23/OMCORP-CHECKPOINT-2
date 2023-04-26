@@ -2,10 +2,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 10px;
-}
-
-.conteudo div {
-    width: 25%;
-    margin: 0 10px;
+    margin: 20px 0;
 }
