@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: #000;
+    color: #f6f6f6;
+}
+
+.cabecalho {
+    padding: 0% 0 0% 15%;
+    background-color: #affc41;
+}
+
+.cabecalho nav {
+    display: flex;
+    gap: 10px;
+}
+
+.cabecalho nav a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    padding: 30px 5px 30px 5px;
+}
+
+.menu:hover {
+    background-color: #000;
+    color: #affc41;
+}
+
+.logo {
+    max-width: 50px;
+}
