@@ -13,7 +13,7 @@ body {
 
 .cabecalho {
     padding: 0% 0 0% 15%;
-    background-color: #affc41;
+    background-color: #f6f6f6;
 }
 
 .cabecalho nav {
@@ -32,7 +32,7 @@ body {
 
 .menu:hover {
     background-color: #000;
-    color: #affc41;
+    color: #f6f6f6;
 }
 
 .logo {
