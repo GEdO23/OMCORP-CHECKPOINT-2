@@ -46,14 +46,16 @@ body {
     margin-top: 10px;
 }
 
-.conteudo > div {
+.conteudo div {
     width: 30%;
+    margin: 0 10px;
 }
 
 .card {
     margin-bottom: 30px;
     padding: 20px;
     background-color: #f6f6f6;
+    border-radius: 10px;
 }
 
 .card h2 {
@@ -76,6 +78,16 @@ body {
     font-style: italic;
     font-size: 14px;
     color: #f6f6f6;
+}
+
+.rodape h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .rodape .redes-sociais {
