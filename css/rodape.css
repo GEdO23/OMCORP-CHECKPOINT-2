@@ -1,0 +1,22 @@
+.rodape h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.rodape .redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape .icone {
+    display: block;
+    max-width: 50px;
+    height: auto;
+    margin: 0 10px;
+}
