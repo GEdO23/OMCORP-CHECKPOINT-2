@@ -6,9 +6,9 @@
 }
 
 .card {
-    width: calc(25% - 20px);
     margin-bottom: 5vh;
     padding: 20px;
+    width: calc(25% - 20px);
     border-radius: 10px;
     text-align: center;
     background-color: #f6f6f6;
@@ -33,5 +33,5 @@
     margin-top: 5%;
     font-size: 3vh;
     font-style: italic;
-    color: #898989;
+    color: #000000a2;
 }

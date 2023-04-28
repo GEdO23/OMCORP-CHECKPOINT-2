@@ -30,18 +30,18 @@ body {
 
 @media only screen and (max-width: 578px) {
     .cabecalho .logo {
-        max-width: 60%;
+        max-width: 20%;
     }
     
     .menu {
-        flex-wrap: wrap;
         flex-direction: column;
         font-size: 20px;
         transition: 1s;
     }
 
     .card {
-        width: 100%;
+        width: 90%;
+        margin-top: 10vw;
         transition: 1s;
     }
 }

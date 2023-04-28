@@ -7,24 +7,30 @@
 .cabecalho nav {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 2vw;
 }
 
 .cabecalho .logo {
     margin: 10px;
-    max-width: 8vh;
+    max-width: 8vw;
 }
 
-.cabecalho .menu{
-    padding: 10px;
-    text-decoration: none;
+.cabecalho .menu, h2 {
     font-size: 4vh;
+    color: #000000;
     font-weight: 600;
-    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border-radius: 15px;
 }
 
+.cabecalho .menu{
+    text-decoration: none;   
+    padding: 10px;
+} 
+
 .cabecalho .menu:hover {
-    background-color: #000;
     color: #f6f6f6;
+    background-color: #000;
 }
