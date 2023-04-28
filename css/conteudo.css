@@ -1,6 +1,37 @@
 .conteudo {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 20px 0;
+}
+
+.card {
+    width: calc(25% - 20px);
+    margin-bottom: 5vh;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f6f6f6;
+    transition: 1s;
+}
+
+.card h2 {
+    font-size: 4vh;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.card img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.card figcaption {
+    margin-top: 5%;
+    font-size: 3vh;
+    font-style: italic;
+    color: #898989;
 }

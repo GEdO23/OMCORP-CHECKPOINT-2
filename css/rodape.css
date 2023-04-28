@@ -3,10 +3,9 @@
 }
 
 .rodape h2 {
+    margin: auto 10px;
     font-size: 24px;
     font-weight: 600;
-    margin-bottom: 10px;
-    margin-top: 10px;
     text-align: center;
 }
 
@@ -17,8 +16,8 @@
 }
 
 .rodape .icone {
-    display: block;
+    margin: 0 10px;
     max-width: 50px;
     height: auto;
-    margin: 0 10px;
+    display: block;
 }
