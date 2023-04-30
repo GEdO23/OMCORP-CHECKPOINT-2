@@ -28,3 +28,8 @@
     font-size: 14px;
     color: #000000;
 }
+
+.card p {
+    margin-top: 20px;
+    color: #000000;
+}
